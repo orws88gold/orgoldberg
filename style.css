@@ -97,7 +97,7 @@ body { background: #ffffff; }
 
 
 /* correction round: color, depth, alignment */
-.hero { background: radial-gradient(65% 85% at 88% 10%, rgba(163,128,47,.12), rgba(163,128,47,0)); }
+.hero { background: linear-gradient(180deg, rgba(163,128,47,.06), rgba(163,128,47,0) 75%); }
 .brand::before { content: ''; display: inline-block; width: 9px; height: 9px; background: #a3802f; margin-left: 12px; }
 .statline strong { color: #a3802f; }
 .rowi { transition: padding .3s, background .3s; }
@@ -106,3 +106,5 @@ body { background: #ffffff; }
 .quote::before { content: '"'; font-family: 'Frank Ruhl Libre', serif; font-size: 110px; color: #a3802f; display: block; line-height: .5; margin-bottom: 18px; opacity: .45; }
 .btn-main { box-shadow: 0 8px 24px rgba(29,26,20,.18); }
 @media (max-width: 900px) { .topbar { justify-content: center; } }
+
+@media (max-width: 900px) { .hero-photo::after { display: none; } }
