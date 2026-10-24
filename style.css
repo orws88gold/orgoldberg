@@ -135,3 +135,18 @@ body { background: var(--cream); }
 .hero .kicker, .member .kicker, .contact .kicker { color: #D9A62B; }
 .hero .kicker::before, .member .kicker::before, .contact .kicker::before { background: #D9A62B; }
 .sec-hook, .rowi .num, .statline strong, .stars { color: #8A6512; }
+
+/* process steps */
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; border-top: 1px solid var(--line); padding-top: 56px; }
+.step .num { font-family: 'Frank Ruhl Libre', serif; font-size: 56px; font-weight: 300; color: #8A6512; display: block; line-height: 1; margin-bottom: 18px; }
+.step h3 { font-family: 'Frank Ruhl Libre', serif; font-weight: 700; font-size: 26px; margin: 0 0 14px; color: var(--ink); }
+.step p { margin: 0; font-size: 15.5px; line-height: 1.85; color: var(--muted); }
+@media (max-width: 900px) { .steps { grid-template-columns: 1fr; gap: 36px; } }
+
+/* faq */
+.faq-list { border-top: 1px solid var(--line); }
+.faq-row { padding: 30px 12px; border-bottom: 1px solid var(--line); transition: background .3s; }
+.faq-row:hover { background: rgba(217,166,43,.06); }
+.faq-row h3 { font-family: 'Frank Ruhl Libre', serif; font-weight: 700; font-size: 24px; margin: 0 0 10px; color: var(--ink); }
+.faq-row p { margin: 0; font-size: 15.5px; line-height: 1.85; color: var(--muted); max-width: 75ch; }
+@media (max-width: 900px) { .faq-row { padding: 24px 4px; } }
