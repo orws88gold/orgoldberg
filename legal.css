@@ -15,3 +15,5 @@
 .kicker{color:#7b5d20}.hero .kicker,.contact .kicker,.dark .kicker{color:#e8c468}
 .phonepill,.num,.step .num{color:#7b5d20!important}
 .bar-in,.brand-side,.topnav{flex-wrap:wrap}.brand-side{max-width:100%}.bar-in{gap:16px}
+
+bdi{white-space:nowrap}
