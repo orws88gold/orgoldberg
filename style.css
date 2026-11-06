@@ -179,3 +179,13 @@ body, .site { font-weight: 400; }
 .hero-photo-inner::after { content: ''; position: absolute; inset: 18px -18px 0 18px; border: 1px solid var(--gold); z-index: 0; pointer-events: none; }
 .hero-photo::after { display: none !important; }
 @media (max-width: 900px) { .hero-photo-inner img { height: 380px; } .hero-photo-inner::after { display: none; } }
+
+/* Approved OG wealth identity, 6 Nov 2026. Existing content unchanged. */
+@font-face {font-family: Fredoka;src:url('assets/fonts/Fredoka.ttf') format('truetype');font-display:swap;}
+.bar-in {align-items:center;}
+.wealth-logo {display:block;width:92px;height:92px;object-fit:contain;border-radius:50%;flex:none;}
+.brand-lockup {display:flex;flex-direction:column;gap:6px;}
+.brand-lockup .brand {font-family:Fredoka, sans-serif;font-size:28px;white-space:nowrap;}
+.brand-lockup .brand::before {display:none;}
+.brand-slogan {font-family:Fredoka,sans-serif;font-size:16px;color:#8a681f;white-space:nowrap;}
+@media(max-width:700px){.wealth-logo{width:64px;height:64px}.brand-lockup .brand{font-size:23px}.brand-slogan{font-size:13px}.bar-in{gap:12px;flex-wrap:wrap}.bar-in>.brand-side{flex-wrap:nowrap}}
