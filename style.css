@@ -195,3 +195,9 @@ body, .site { font-weight: 400; }
 
 /* Owner request 2026-11-10: centered brand above navigation */
 .topbar .bar-in{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding-top:18px;padding-bottom:16px}.topbar .brand-home{color:inherit;text-decoration:none;display:flex;align-items:center;justify-content:center;text-align:center}.topbar .brand-home .brand-lockup{text-align:center}.topbar .bar-in>.brand-side:last-child{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:16px}.topbar .topnav{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 24px}.topbar .topnav a{min-height:44px;display:flex;align-items:center}.topbar .phonepill{display:none}@media(max-width:650px){.topbar .bar-in{gap:10px;padding:14px 18px}.topbar .topnav{gap:4px 18px;font-size:14px}.topbar .brand-home{gap:12px}.topbar .brand-slogan{white-space:normal}}
+
+/* 10 Nov: owner enlarged logo lockup +50%, navigation +125%. */
+.topbar .wealth-logo{width:138px;height:138px}.topbar .brand-lockup .brand{font-size:42px}.topbar .brand-slogan{font-size:24px}.topbar .brand-home{gap:24px}.topbar .topnav{font-size:31.5px;gap:22.5px 54px}.topbar .topnav a{min-height:99px}.topbar .bar-in{gap:21px;padding-top:27px;padding-bottom:24px}.topbar .brand-lockup{gap:9px}
+@media(max-width:1040px){.topbar .topnav{gap:12px 28px}.topbar .topnav a{min-height:70px}}
+@media(max-width:650px){.topbar .wealth-logo{width:96px;height:96px}.topbar .brand-lockup .brand{font-size:34.5px}.topbar .brand-slogan{font-size:19.5px}.topbar .brand-home{gap:18px}.topbar .topnav{font-size:31.5px;gap:9px 24px}.topbar .topnav a{min-height:72px}.topbar .bar-in{padding:21px 18px;gap:15px}.topbar .brand-lockup{max-width:calc(100vw - 150px)}.topbar .brand-lockup .brand{white-space:normal}}
+@media(max-width:360px){.topbar .brand-lockup .brand{font-size:29px}.topbar .brand-slogan{font-size:17px}.topbar .brand-home{gap:14px}}
