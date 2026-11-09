@@ -189,3 +189,6 @@ body, .site { font-weight: 400; }
 .brand-lockup .brand::before {display:none;}
 .brand-slogan {font-family:Fredoka,sans-serif;font-size:16px;color:#8a681f;white-space:nowrap;}
 @media(max-width:700px){.wealth-logo{width:64px;height:64px}.brand-lockup .brand{font-size:23px}.brand-slogan{font-size:13px}.bar-in{gap:12px;flex-wrap:wrap}.bar-in>.brand-side{flex-wrap:nowrap}}
+
+/* Approved About text, 2026-11-09 */
+.about{background:#f7f2e7;color:#12211a;scroll-margin-top:90px}.about-body{max-width:780px;margin-inline:auto;font-size:18px;line-height:1.9}.about-body p{margin:0 0 1.25em}.about-body li{margin-bottom:1em}.about-body h3{font-size:1.55rem;line-height:1.5;margin:0 0 1em}.about-body strong{font-weight:700}.about-body li,.about-body p{overflow-wrap:anywhere}@media(max-width:650px){.about-body{font-size:17px;line-height:1.9}}
