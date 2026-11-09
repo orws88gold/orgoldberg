@@ -225,3 +225,5 @@ body, .site { font-weight: 400; }
 @media(max-width:360px){.site .topbar .bar-in{gap:8px;padding-inline:8px;grid-template-columns:48px minmax(0,1fr) 80px}.site .topbar .brand-home,.site .topbar .wealth-logo{width:80px}.site .topbar .header-name .brand{font-size:15px}.site .topbar .header-name .brand-slogan{font-size:11px}}
 
 .site .topbar{position:sticky;top:0;z-index:100}.site section[id]{scroll-margin-top:120px}@media(max-width:650px){.site section[id]{scroll-margin-top:82px}}
+
+@media(min-width:901px) and (max-width:1350px){.site .topbar .topnav{font-size:15px}.site .topbar .topnav a{padding-inline:8px}}
