@@ -13,7 +13,7 @@ body { background: var(--cream); }
   font-family: 'Assistant', 'Heebo', system-ui, sans-serif; font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
-.brand, h1, h2, .rowi h3, .price-line, .statline strong, .num, .scan-box h4 { font-family: 'Secular One', 'Assistant', sans-serif; font-weight: 400; }
+.brand, h1, h2, .rowi h3, .price-line, .statline strong, .num, 
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 40px; }
 .kicker { font-size: 12px; letter-spacing: .28em; color: var(--gold); font-weight: 600; text-transform: uppercase; }
 .kicker::before { content: ''; display: inline-block; width: 26px; height: 1px; background: var(--gold); vertical-align: middle; margin-left: 10px; }
@@ -73,9 +73,9 @@ body { background: var(--cream); }
 .price-line { font-size: 92px; font-weight: 900; line-height: 1; color: var(--gold); }
 .price-line .per { font-size: 22px; font-weight: 400; font-family: 'Assistant', sans-serif; }
 .price-sub { font-size: 14px; color: var(--muted-dark); margin-top: 14px; letter-spacing: .03em; line-height: 1.8; }
-.scan-box { border: 1px solid var(--gold); background: var(--deep2); padding: 34px; margin-top: 44px; box-shadow: 0 20px 50px rgba(0,0,0,.35); }
-.scan-box h4 { font-size: 24px; margin: 0 0 12px; color: var(--gold); font-weight: 700; }
-.scan-box p { font-size: 15px; margin: 0; }
+
+
+
 
 /* quote */
 .quote { padding: 110px 0; text-align: center; }
@@ -201,3 +201,10 @@ body, .site { font-weight: 400; }
 @media(max-width:1040px){.topbar .topnav{gap:12px 28px}.topbar .topnav a{min-height:70px}}
 @media(max-width:650px){.topbar .wealth-logo{width:96px;height:96px}.topbar .brand-lockup .brand{font-size:34.5px}.topbar .brand-slogan{font-size:19.5px}.topbar .brand-home{gap:18px}.topbar .topnav{font-size:31.5px;gap:9px 24px}.topbar .topnav a{min-height:72px}.topbar .bar-in{padding:21px 18px;gap:15px}.topbar .brand-lockup{max-width:calc(100vw - 150px)}.topbar .brand-lockup .brand{white-space:normal}}
 @media(max-width:360px){.topbar .brand-lockup .brand{font-size:29px}.topbar .brand-slogan{font-size:17px}.topbar .brand-home{gap:14px}}
+
+/* 10 Nov: clearly framed navigation, financial site only. */
+.topbar .topnav{border:1.5px solid #a48438;border-radius:16px;background:linear-gradient(180deg,#fcfaf3,#f4eedf);box-shadow:0 4px 16px rgba(29,48,36,.07),inset 0 0 0 4px #f8f4e8;padding:4px 24px;max-width:100%}.topbar .topnav a{position:relative;color:#344136}.topbar .topnav a:hover{color:#806022}.topbar .bar-in>.brand-side:last-child{max-width:100%}@media(max-width:650px){.topbar .topnav{border-radius:14px;padding:6px 12px;gap:4px 22px}}
+
+/* Keep the owner name together on narrow screens. */
+@media(max-width:650px){.topbar .brand-lockup .brand{white-space:nowrap;width:auto;max-width:none;font-size:clamp(26px,8.2vw,34.5px)}.topbar .brand-lockup{min-width:0}}
+.topbar .brand-lockup .brand{margin:0;padding:0}
