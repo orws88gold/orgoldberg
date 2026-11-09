@@ -20,3 +20,7 @@
 - [מדיניות פרטיות](https://orgoldberg.com/privacy.html)
 - [תקנון ותנאי שימוש](https://orgoldberg.com/terms.html)
 - [הצהרת נגישות](https://orgoldberg.com/accessibility.html)
+
+## מאמרים
+- [מאמרים](https://orgoldberg.com/blog/)
+- [תיקון 190: מה בודקים לפני שמפקידים לקופת גמל](https://orgoldberg.com/blog/amendment-190-before-deposit/)
