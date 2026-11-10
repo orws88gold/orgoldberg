@@ -234,3 +234,9 @@ body, .site { font-weight: 400; }
 .site .topbar .topnav a:last-child{border-inline-end:0}.site .topbar .topnav a:hover,.site .topbar .topnav a:focus-visible{text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:2px}
 .mobile-nav a{font-family:Heebo,Assistant,system-ui,sans-serif;font-weight:700;background:transparent}.step .num{text-align:right}
 .step .num{padding:0}
+
+/* Neutral contact details: readable on dark contact sections, isolated LTR links. */
+.contact .contact-details{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.5rem 1.25rem;margin:1.25rem auto 0;color:#f5f7fa;font-size:1rem;line-height:1.8}
+.contact .contact-details a,.contact .contact-details a:visited{color:#f5f7fa;display:inline-block;direction:ltr;unicode-bidi:isolate;white-space:nowrap;text-decoration:underline;text-underline-offset:.2em}
+.contact .contact-details a:hover{color:#fff}
+.contact .contact-details a:focus-visible{outline:2px solid #fff;outline-offset:5px;border-radius:2px}
